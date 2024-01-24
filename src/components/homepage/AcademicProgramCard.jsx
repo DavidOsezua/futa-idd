@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import Button from "../general/Button";
 import styles from "./AcademicProgramCard.module.css";
 import { arrowPurple } from "../../assests";
+import Button from "../general/Button";
 
 const AcademicProgramCard = ({ academicObjectOne }) => {
   return (

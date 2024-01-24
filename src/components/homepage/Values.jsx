@@ -6,7 +6,7 @@ import ValueCard from "./ValueCard";
 
 const Values = () => {
   return (
-    <section>
+    <section className="pt-5rem">
       <h2 className="text-center pb-[3rem] pt-[3rem] text-[2rem]">
         Our <span className="text-[#754FE2]">values</span>
       </h2>

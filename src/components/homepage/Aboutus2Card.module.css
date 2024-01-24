@@ -1,8 +1,9 @@
 .firstCard {
   border-radius: 1.19238rem;
   background: #fdfaff;
-  min-width: 25.0625rem;
-  min-height: 28.8125rem;
+  /* min-width: 25.0625rem;
+  min-height: 28.8125rem; */
+  padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,8 +12,9 @@
 .secondCard {
   border-radius: 1.19238rem;
   background: #e6f9ff;
-  min-width: 25.0625rem;
-  min-height: 28.8125rem;
+  padding: 1.5rem 1rem;
+  /* min-width: 25.0625rem;
+  min-height: 28.8125rem; */
   display: flex;
   color: #0497e4;
   flex-direction: column;
@@ -57,6 +59,6 @@
 
 @media screen and (min-width: 968px) {
   .secondCard .imgContainer {
-  order: -1; /* Change the order to -1 to move it to the top */
-}
+    order: -1; /* Change the order to -1 to move it to the top */
+  }
 }

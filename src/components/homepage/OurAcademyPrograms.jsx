@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./OurAcademyPrograms.module.css";
 import { academicDataOne, academicDataTwo } from "../../data";
 import AcademicProgramCard from "./AcademicProgramCard";

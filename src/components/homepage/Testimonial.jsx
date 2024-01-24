@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Slider.css"; // Import your CSS file
 import { fineGirl } from "../../assests";
 
-const Slider = () => {
+const Testimonial = () => {
   // Dummy data for slides
   const dummySlides = [
     `“At the Industrial Design Department, I'm not just learning design; I'm living it. The dynamic projects, supportive faculty, and collaborative spirit make every day an opportunity to innovate. Grateful for the hands-on experiences shaping my journey in industrial design. At the Industrial Design Department, I'm not just learning design; I'm living it. The dynamic projects, supportive faculty, and collaborative spirit make every day an opportunity to innovate. The dynamic projects, supportive faculty, and collaborative spirit make every day an opportunity to innovate.”`,
@@ -96,4 +96,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Testimonial;

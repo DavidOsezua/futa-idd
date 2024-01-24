@@ -3,7 +3,24 @@
   padding-bottom: 3rem;
 }
 
+/* .newmanContainer {
+    max-width: 578px;
+    padding-inline: 20px;
+    margin-inline: auto
+  } */
+
+.sectionContainer {
+  max-width: 1300px;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .sectionContainer > * + * {
+  margin-top: 1rem;
+}
+
+.cardContainer > * + * {
   margin-top: 1rem;
 }
 
@@ -25,5 +42,12 @@
     display: flex;
     gap: 56px;
     align-items: center;
+  }
+  .cardContainer > * + * {
+    margin-top: 0;
+  }
+
+  .newmanContainer {
+    max-width: none;
   }
 }
