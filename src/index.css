@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.primary-button {
+    @apply bg-primary px-7 py-3 rounded-full text-white text-base hover:bg-purple-700 focus:ring focus:ring-purple-700 focus:bg-purple-700 focus:px-6 focus:py-2 focus:ring-offset-2
+}
