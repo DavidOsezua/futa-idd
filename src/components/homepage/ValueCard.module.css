@@ -1,0 +1,24 @@
+.card {
+  background-color: #fdfaff;
+  border-radius: 10px;
+  height: 322px;
+  width: 390px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card > * + * {
+  margin-top: 1rem;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+}

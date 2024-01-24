@@ -1,0 +1,21 @@
+.card {
+  background-color: #fff;
+  border-radius: 0.88375rem;
+  background: #fff;
+  max-width: 32.11006rem;
+  height: 22.5rem;
+  padding: 2rem;
+  flex-shrink: 0;
+}
+
+.card > * + * {
+  margin-top: 1rem;
+}
+
+.title {
+  color: #222;
+  font-size: 1.47294rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

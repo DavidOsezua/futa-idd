@@ -1,0 +1,115 @@
+.testContainer > * + * {
+  margin-top: 2rem;
+}
+
+.textAndControl > * + * {
+  margin-top: 2rem;
+}
+
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  height: 15.3125rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  transition: 1s;
+}
+
+.slide-item {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 3rem 1rem;
+  text-align: justify;
+}
+
+.dot {
+  height: 2px;
+  width: 20px;
+  border-radius: 1.25rem;
+  background: #d9d9d9;
+}
+
+.title {
+  color: #5b5b5b;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.6875rem */
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 2rem;
+}
+
+.controlContainer,
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.desktop {
+  display: none;
+}
+
+.control > * + * {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 968px) {
+  .mobile {
+    display: none;
+  }
+
+  .testContainer {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .desktop {
+    display: block;
+    order: -1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .textAndControl {
+    width: 100%;
+  }
+
+  .control {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .control > * + * {
+    margin-top: 0;
+  }
+
+  /* .slide-text {
+    width: 60%;
+  } */
+}

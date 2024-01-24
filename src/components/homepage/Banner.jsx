@@ -1,5 +1,6 @@
 import CustomImageNM from "../general/CustomImageNM"
 
+// eslint-disable-next-line no-unused-vars
 const Banner = () => {
   return (
     <section className="pt-28 pb-28 md:pt-36 relative bg-primary-bg flex flex-col gap-10 md:gap-20">
