@@ -1,0 +1,11 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+@media screen and (min-width: 968px) {
+  .sectionContainer {
+    flex-direction: row;
+  }
+}

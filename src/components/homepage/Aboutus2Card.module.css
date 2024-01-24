@@ -1,0 +1,62 @@
+.firstCard {
+  border-radius: 1.19238rem;
+  background: #fdfaff;
+  min-width: 25.0625rem;
+  min-height: 28.8125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+.secondCard {
+  border-radius: 1.19238rem;
+  background: #e6f9ff;
+  min-width: 25.0625rem;
+  min-height: 28.8125rem;
+  display: flex;
+  color: #0497e4;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+.card > * + * {
+  margin-top: 1rem;
+}
+.title {
+  color: #754fe2;
+  font-family: "Neue Montreal";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.secondTitle {
+  color: #0497e4;
+  font-family: "Neue Montreal";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.text {
+  color: #3c3c3c;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 1.575rem */
+  letter-spacing: -0.0175rem;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 968px) {
+  .secondCard .imgContainer {
+  order: -1; /* Change the order to -1 to move it to the top */
+}
+}

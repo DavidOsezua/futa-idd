@@ -1,0 +1,106 @@
+.footer {
+  background: #fdfaff;
+  padding: 3rem;
+  position: relative;
+}
+
+.footerContainer {
+  position: relative;
+}
+
+.footerContainer > * + * {
+  margin-top: 5rem;
+}
+
+.iDD > * + * {
+  margin-top: 0.8rem;
+}
+
+.iDDTitle {
+  color: #754fe2;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+.gridFlex {
+  display: grid;
+  margin-top: 3rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+}
+
+.linkTitle {
+  color: #222;
+  font-size: 1.25rem;
+  font-style: normal;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.linkMenu > * + * {
+  margin-top: 0.9rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #c6c6c6;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #5c5b5b;
+}
+
+.img {
+  position: absolute;
+  bottom: 0;
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* .topContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.belowContent {
+  display: flex;
+  justify-content: space-between;
+} */
+
+@media screen and (min-width: 968px) {
+  .iDD {
+    width: 20%;
+  }
+
+  .topContent {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  /* Footer.module.css */
+
+  .gridFlex {
+    display: grid;
+    margin-top: 0rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+}

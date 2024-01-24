@@ -1,0 +1,29 @@
+.section {
+  background-color: #754fe2;
+  background-image: url("../../assests/spiral.svg");
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container1,
+.container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 968px) {
+  .sectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+  }
+
+  .container2{
+    margin-top: 6rem;
+  }
+}
