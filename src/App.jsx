@@ -1,13 +1,11 @@
-import AboutUs2 from "./components/homepage/AboutUs2";
-import Values from "./components/homepage/Values";
-import OurAcademyPrograms from "./components/homepage/OurAcademyPrograms";
-import Slider from "./components/homepage/Testimonial";
-import Footer from "./components/general/Footer";
+
+import Header from "./components/general/Header";
+import AboutUs1 from "./components/homepage/AboutUs1";
+import Banner from "./components/homepage/Banner";
+import OurProjects from "./components/homepage/OurProjects";
+import OurStaffs from "./components/homepage/OurStaffs";
+
 
 export default function App() {
-  return (
-    <div>
-      <Slider />
-    </div>
-  );
+
 }

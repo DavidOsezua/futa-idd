@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.primary-button {
+    @apply bg-primary px-7 py-3 rounded-full text-white text-base hover:bg-purple-700 focus:ring focus:ring-purple-700 focus:bg-purple-700 focus:px-6 focus:py-2 focus:ring-offset-2
+}
+
+.slide-show::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    display: none;
+}
+
+.slide-show::-webkit-scrollbar-thumb {
+    background-color: #C6C6C6;
+    border-radius: 6px;
+}
+
+.slide-show:hover::-webkit-scrollbar {
+    display: block;
+}
+
