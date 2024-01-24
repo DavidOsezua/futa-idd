@@ -1,3 +1,4 @@
+import CustomImageNM from "../general/CustomImageNM"
 
 const Banner = () => {
   return (
@@ -10,11 +11,13 @@ const Banner = () => {
         </div>
 
         {/* hero image */}
-        <div className="block md:flex gap-3 items-start">
-            <div className="rounded-md w-full h-[308px] max-w-[334px] max-h-[308px] bg-stroke mx-auto">
-                <img src="" alt="" />
-            </div>
-            <div className="hidden sm:block rounded-md w-full h-[308px] max-w-[334px] max-h-[308px] bg-stroke mx-auto">
+        <div className="block sm:flex gap-3 items-start w-max mx-auto">
+            <CustomImageNM className="w-full h-[308px] max-w-[334px] sm:max-w-[281px] sm:h-[319px]" src="/homepage/banner-image-1.jpg" alt="" />
+            <CustomImageNM className="hidden sm:block w-full h-[308px] max-w-[334px] sm:max-w-[281px] sm:h-[319px] mt-8" src="/homepage/banner-image-2.jpg" alt="" />
+            <CustomImageNM className="hidden lg:block w-full h-[308px] max-w-[334px] sm:max-w-[281px] sm:h-[319px]" src="/homepage/banner-image-3.jpg" alt="" />
+            <CustomImageNM className="hidden xl:block w-full h-[308px] max-w-[334px] sm:max-w-[281px] sm:h-[319px] mt-8" src="/homepage/banner-image-4.jpg" alt="" />
+
+            {/* <div className="hidden sm:block rounded-md w-full h-[308px] max-w-[334px] bg-stroke mx-auto">
                 <img src="" alt="" />
             </div>
             <div className="hidden md:block rounded-md w-full h-[308px] max-w-[334px] max-h-[308px] bg-stroke mx-auto">
@@ -22,7 +25,8 @@ const Banner = () => {
             </div>
             <div className="hidden md:blockrounded-md w-full h-[308px] max-w-[334px] max-h-[308px] bg-stroke mx-auto">
                 <img src="" alt="" />
-            </div>
+            </div> */}
+
         </div>
 
         {/* hero card */}
