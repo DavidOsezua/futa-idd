@@ -5,25 +5,28 @@ import Button from "../general/Button";
 import { aboutUs2Card } from "../../data";
 import AboutUs2Card from "./AboutUs2Card";
 import { arrow } from "../../assests";
+import { Slide, Fade, Bounce } from "react-awesome-reveal";
 
 const AboutUs2 = () => {
   return (
     <section className={`${styles.section}`}>
       <div className={`${styles.sectionContainer}`}>
-        <div className={`${styles.designContainer}`}>
-          <h1 className={`${styles.sectionTitle}`}>
-            Sections in Industrial{" "}
-            <span className="text-[#754FE2]">Design</span> Department, FUTA
-          </h1>
-          <p>
-            Welcome to our Graphic Design Section, where art meets
-            functionality, and creativity knows no bounds. We believe in the
-            power of visual{" "}
-          </p>
-          <Button>
-            Explore <img src={arrow} />
-          </Button>
-        </div>
+        <Slide>
+          <div className={`${styles.designContainer}`}>
+            <h1 className={`${styles.sectionTitle}`}>
+              Sections in Industrial{" "}
+              <span className="text-[#754FE2]">Design</span> Department, FUTA
+            </h1>
+            <p>
+              Welcome to our Graphic Design Section, where art meets
+              functionality, and creativity knows no bounds. We believe in the
+              power of visual{" "}
+            </p>
+            <Button>
+              Explore <img src={arrow} />
+            </Button>
+          </div>
+        </Slide>
         <div className={`${styles.cardContainer}`}>
           {aboutUs2Card.map((aboutObject, i) => (
             <AboutUs2Card
