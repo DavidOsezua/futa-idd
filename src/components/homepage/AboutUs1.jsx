@@ -1,4 +1,5 @@
 import { Slide, Fade, Bounce } from "react-awesome-reveal";
+import { about1 } from "../../assests";
 
 const AboutUs1 = () => {
   return (
@@ -23,15 +24,13 @@ const AboutUs1 = () => {
         </div>
       </Slide>
 
-      <Slide direction="right">
-        <div className="relative rounded-md w-full h-[308px] max-w-[334px] md:max-w-[388px] md:h-[355px] bg-stroke mx-auto md:mx-0 order-1">
-          <img src="" alt="" />
-          <img
-            src="/play-circle.svg"
-            className="absolute top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2"
-          />
-        </div>
-      </Slide>
+      <div className="relative rounded-md w-full h-[305px] max-w-[334px] md:max-w-[388px] md:h-[355px] bg-stroke mx-auto md:mx-0 order-1">
+        <img src={about1} alt="" />
+        <img
+          src="/play-circle.svg"
+          className="absolute top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2"
+        />
+      </div>
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import StaffCard from "./StaffCard";
+import { img1, img2, img3, img4 } from "../../assests";
 
 const OurStaffs = () => {
   return (
@@ -23,25 +24,25 @@ const OurStaffs = () => {
           name="Prof. O.F Kayode"
           position="HOD(Graphics Section)"
           primary={true}
-          src="/homepage/staff-image.png"
+          src={img1}
           alt=""
         />
         <StaffCard
           name="Dr L.E Etsename"
           position="Graphics Section"
-          src="/homepage/staff-image.png"
+          src={img2}
           alt=""
         />
         <StaffCard
           name="Prof. E.O Oladumiye"
           position="Graphics Section"
-          src="/homepage/staff-image.png"
+          src={img3}
           alt=""
         />
         <StaffCard
           name="Dr Adelabu"
           position="Ceramics Section"
-          src="/homepage/staff-image.png"
+          src={img4}
           alt=""
         />
       </div>

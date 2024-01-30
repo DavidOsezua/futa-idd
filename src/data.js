@@ -1,10 +1,10 @@
 import {
   valueSvg,
-  clayPot,
-  rectangle,
   instagram,
   facebook,
   twitter,
+  card1,
+  card2,
 } from "./assests";
 
 export const valueData = [
@@ -27,13 +27,13 @@ export const valueData = [
 
 export const aboutUs2Card = [
   {
-    image: rectangle,
+    image: card1,
     text: "Welcome to our Graphic Design Section, where art meets functionality, and creativity knows no bounds. We believe in the power of visual communication and its ability to transform ideas into compelling messages, eye-catching visuals, and impactful brand identities.",
     title: "Graphics Section",
     titleImg: "tImg",
   },
   {
-    image: clayPot,
+    image: card2,
     text: "Welcome to the Ceramics Section, where the ancient craft of shaping clay into art meets the modern world of creative expression. Within these walls, we celebrate the transformative journey from raw clay to exquisite pottery and ceramic masterpieces.",
     title: "Ceramics Section",
     titleImg: "tImg",

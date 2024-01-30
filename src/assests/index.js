@@ -10,8 +10,16 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import design from "./design.svg";
-import fineGirl from "./fineGirl.png";
+import student from "./student.png";
+import img1 from "./img1.png";
+import img2 from "./img2.png";
+import img3 from "./img3.png";
+import img4 from "./img4.png";
+import about1 from "./about1.png";
+
 import close from "./close.svg";
+import card1 from "./card1.svg";
+import card2 from "./card2.svg";
 export {
   valueSvg,
   clayPot,
@@ -25,6 +33,13 @@ export {
   twitter,
   instagram,
   design,
-  fineGirl,
   close,
+  card1,
+  card2,
+  img1,
+  img2,
+  img3,
+  img4,
+  about1,
+  student,
 };

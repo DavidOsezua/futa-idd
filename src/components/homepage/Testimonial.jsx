@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Slider.css"; // Import your CSS file
-import { fineGirl } from "../../assests";
+import { student } from "../../assests";
 
 const Testimonial = () => {
   // Dummy data for slides
@@ -53,14 +53,14 @@ const Testimonial = () => {
               {dummySlides.map((slide, index) => (
                 <div key={index} className="slide-item">
                   <p className="mb-[1rem] slide-text"> {slide}</p>
-                  <p>-Okiemute Oromuno</p>
+                  <p>-Adelu Adetayo</p>
                 </div>
               ))}
             </div>
           </div>
 
           <div className="imgContainer mobile">
-            <img src={fineGirl} />
+            <img src={student} />
           </div>
 
           <div className="control">
@@ -89,7 +89,7 @@ const Testimonial = () => {
         </div>
 
         <div className="desktop">
-          <img src={fineGirl} />
+          <img src={student} />
         </div>
       </div>
     </section>
