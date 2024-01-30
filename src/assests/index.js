@@ -11,6 +11,7 @@ import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import design from "./design.svg";
 import fineGirl from "./fineGirl.png";
+import close from "./close.svg";
 export {
   valueSvg,
   clayPot,
@@ -25,4 +26,5 @@ export {
   instagram,
   design,
   fineGirl,
+  close,
 };

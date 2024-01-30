@@ -1,0 +1,110 @@
+.navMenu {
+  position: relative;
+}
+
+.toggleBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 766px) {
+  .navMenu {
+    z-index: 100;
+    position: fixed;
+    background: #ebf0fa;
+    top: -1000%;
+    right: 0;
+    min-width: 100%;
+    margin: 0 auto;
+    min-height: 50%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 0.5rem;
+    transition: 1s;
+    z-index: 10;
+  }
+
+  .navMenu > * + * {
+    margin-top: 1rem;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 1rem;
+  }
+
+  .closeBtn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .overlay {
+    background: rgba(121, 131, 220, 0.31);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    transition: 0.4s;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow-y: scroll;
+  }
+
+  .overlay::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobileBtn {
+    width: 100%;
+    border-radius: 0.1875rem;
+    background: #6450e0;
+    box-shadow: 0px 4px 4px 0px rgba(13, 44, 123, 0.15);
+    display: flex;
+    padding: 0.3125rem 0.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.navMenu.showMenu {
+  transition: 0.3s;
+
+  top: 0;
+}
+
+.link {
+  color: #0d2c7b;
+  position: relative;
+  /* padding-bottom: 0.5rem; */
+}
+
+.link:hover::before {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  content: "";
+  background: #0d2c7b;
+}
+
+.navItems {
+  position: relative;
+  cursor: pointer;
+}
+.navItems :global(.active)::before {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  content: "";
+  background: #0d2c7b;
+}
