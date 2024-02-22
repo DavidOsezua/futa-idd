@@ -1,0 +1,45 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container > * + * {
+  margin-top: 2rem;
+}
+
+.title {
+  color: #222222;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.rank {
+  position: absolute;
+  bottom: 5%;
+  left: 20%; /* Align the left edge of the element to the horizontal center */
+  transform: translateX(
+    -10%
+  ); /* Shift the element to the left by half of its own width */
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
