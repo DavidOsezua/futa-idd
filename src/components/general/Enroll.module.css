@@ -1,0 +1,76 @@
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img {
+  height: 357px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+  background-color: rgba(
+    117,
+    79,
+    226,
+    0.9
+  ); /* Adjust color and opacity as needed */
+  z-index: 1; /* Make sure the overlay appears above the image */
+}
+
+.textContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 100;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* line-height: 39px; */
+}
+
+.text {
+  font-size: 0.8rem;
+}
+.textContainer > * + * {
+  margin-top: 0.5rem;
+}
+@media screen and (min-width: 915px) {
+  .textContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 100;
+    text-align: center;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 39px;
+  }
+
+  .textContainer > * + * {
+    margin-top: 0.5rem;
+  }
+}

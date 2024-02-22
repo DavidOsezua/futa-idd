@@ -1,0 +1,31 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container > * + * {
+  margin-top: 2rem;
+}
+.titleContainer {
+  text-align: center;
+}
+
+.title {
+  color: #2c3459;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 1.2rem;
+}
+
+.text {
+  font-size: 0.8rem;
+  color: #5b5b5b;
+}
+
+@media screen and (min-width: 916px) {
+  .imgContainer {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -72,3 +72,59 @@ export const socialLinks = [
   { imgName: "twiter", image: twitter },
   { imgName: "facebook", image: facebook },
 ];
+
+export const faqQuestions = [
+  {
+    questions: "How do i enroll for my undergraduate program?",
+    answers:
+      "Yes, you can buy cryptocurrency with a USD/EUR card. This feature is brought to you by our third-party partner service, Simplex",
+  },
+  {
+    questions: "How do i enroll for my undergraduate program?",
+    answers:
+      "This feature is brought to you by our partner, Simplex. Simplex chargers 5% for each purchase (at least $10). InterLedgerSwap charges 0,4% for such purchases. The network fees are applied as usual depending on the currency.",
+  },
+  {
+    questions: "How do i enroll for my undergraduate program?",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+  {
+    questions: "How do i enroll for my undergraduate program?",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+  {
+    questions: "How do i enroll for my undergraduate program?",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+];
+
+export const Level = [
+  {
+    questions: "100 LV",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+  {
+    questions: "200 LV",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+  {
+    questions: "300 LV",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+  {
+    questions: "400 LV",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+  {
+    questions: "500 LV",
+    answers:
+      "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+];

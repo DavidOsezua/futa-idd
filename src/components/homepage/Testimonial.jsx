@@ -42,7 +42,7 @@ const Testimonial = () => {
         </p>
       </div>
 
-      <div className="testContainer">
+      <div className="testContainer p-[1rem]">
         {/* Render your slide components here */}
         <div className="textAndControl">
           <div className="slide-container">
