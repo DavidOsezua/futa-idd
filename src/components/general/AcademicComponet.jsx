@@ -13,8 +13,10 @@ const AcademicComponet = ({ title }) => {
           Bachelor of Technology (BTech.) Industrial Design
         </p>
 
-        <li className={`${styles.text}`}>Ceramics Option</li>
-        <li className={`${styles.text}`}>Graphics Option</li>
+        <ul className={`${styles.options}`}>
+          <li className={`${styles.text}`}>Ceramics Option</li>
+          <li className={`${styles.text}`}>Graphics Option</li>
+        </ul>
 
         <div className={`${styles.container}`}>
           <h2 className={`${styles.title}`}>

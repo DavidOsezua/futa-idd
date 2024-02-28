@@ -23,9 +23,14 @@
   color: #5b5b5b;
 }
 
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 @media screen and (min-width: 916px) {
   .imgContainer {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
   }
 }

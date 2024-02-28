@@ -16,3 +16,14 @@
 .span {
   color: #754fe2;
 }
+
+.options {
+  list-style-type: none; /* Hide default bullet points */
+}
+
+.options li:before {
+  content: "\2022";
+  color: #754fe2;
+  font-size: 20px;
+  margin-right: 5px;
+}

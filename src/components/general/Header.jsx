@@ -18,7 +18,7 @@ const Header = () => {
     setDropdown(false);
   };
   return (
-    <header className="flex items-center justify-between bg-primary-bg/60 fixed top-6 left-5 right-5 md:pb-4 md:border-b md:border-stroke xl:right-0 xl:w-[1240px] xl:left-1/2 xl:-translate-x-1/2 z-50">
+    <header className="flex items-center justify-between p-[1rem] bg-primary-bg/60 fixed top-6 left-5 right-5 md:pb-4 md:border-b md:border-stroke xl:right-0 xl:w-[1240px] xl:left-1/2 xl:-translate-x-1/2 z-50">
       <span className="text-primary text-2xl font-semibold uppercase">
         <NavLink to="/">Logo</NavLink>
       </span>
@@ -48,6 +48,7 @@ const Header = () => {
             <span
               className="flex gap-1 items-center cursor-pointer"
               onClick={dropDownHandler}
+              onMouseEnter={dropDownHandler}
             >
               Sections
             </span>
@@ -60,19 +61,25 @@ const Header = () => {
               } cursor-pointer`}
             />
           </li>
-          {dropDown && <Dropdown onClose={toggleHandler} />}
+          {dropDown && (
+            <Dropdown
+              onClose={toggleHandler}
+              toggle={toggle}
+              leave={dropDownHandler}
+            />
+          )}
 
-          <li>
+          <li onClick={toggleHandler}>
             <span>
               <NavLink to="/projects"> Projects</NavLink>
             </span>
           </li>
-          <li>
+          <li onClick={toggleHandler}>
             <span>
               <NavLink to="/Academics">Academics</NavLink>
             </span>
           </li>
-          <li>
+          <li onClick={toggleHandler}>
             <span>
               <NavLink to="/staff">Staff</NavLink>
             </span>

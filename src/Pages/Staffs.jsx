@@ -113,7 +113,6 @@ const Staffs = () => {
             <img src={DrAjala} className={`${styles.image}`} />
             <div className={`${styles.rank}`}>
               <h2 className={`${styles.title}`}>Dr. Ajala</h2>
-              <h2 className={`${styles.title}`}>Dr.Ajala</h2>
               <p>Senior ceramics lecturer</p>
             </div>
           </div>

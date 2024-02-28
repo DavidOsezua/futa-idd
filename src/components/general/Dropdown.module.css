@@ -1,8 +1,11 @@
 .container {
+  position: relative;
+  z-index: 10;
   /* margin-top: 1rem;
   padding-left: 1rem; */
   min-width: 8rem;
   color: #0d2c7b;
+
 }
 
 .container > * + * {
@@ -22,6 +25,14 @@
   content: "";
   background: #0d2c7b;
 }
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
 @media screen and (min-width: 913px) {
   .container {
     position: absolute;
@@ -35,6 +46,9 @@
     margin-top: 1.3rem;
   }
 
+  .link {
+    color: #fff;
+  }
   .link:hover::before {
     background: #ffffff;
   }

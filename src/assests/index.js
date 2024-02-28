@@ -44,6 +44,10 @@ import MrUthman from "./MrUthman.jpeg";
 import ProfKashim from "./ProfKashim.jpeg";
 import ProfKayode from "./ProfKayode.jpeg";
 import ProfOladumiye from "./ProfOladumiye.jpeg";
+import graphicsBG from "./graphicsBG.jpeg";
+import leftArk from "./leftArk.svg";
+import rightArk from "./rightArk.svg";
+import graphicsAbt from "./graphicsAbt.jpeg";
 
 export {
   valueSvg,
@@ -92,4 +96,8 @@ export {
   ceramicsAbt,
   MrOke,
   MrUthman,
+  graphicsBG,
+  leftArk,
+  rightArk,
+  graphicsAbt,
 };
