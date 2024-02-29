@@ -48,6 +48,9 @@ import graphicsBG from "./graphicsBG.jpeg";
 import leftArk from "./leftArk.svg";
 import rightArk from "./rightArk.svg";
 import graphicsAbt from "./graphicsAbt.jpeg";
+import graphicsGallery1 from "./graphicsGallery1.jpeg";
+import graphicsGallery2 from "./graphicsGallery2.jpeg";
+import graphicsGallery3 from "./graphicsGallery3.jpeg";
 
 export {
   valueSvg,
@@ -100,4 +103,7 @@ export {
   leftArk,
   rightArk,
   graphicsAbt,
+  graphicsGallery1,
+  graphicsGallery2,
+  graphicsGallery3,
 };

@@ -5,6 +5,9 @@ import {
   twitter,
   card1,
   card2,
+  drawing,
+  graphicsGallery1,
+  graphicsGallery2,
 } from "./assests";
 
 export const valueData = [
@@ -126,5 +129,179 @@ export const Level = [
     questions: "500 LV",
     answers:
       "It is a requirement of our crypto purchase provider, Simplex. The amount is chosen based on the network fees and some extra expenses that they cover for you.",
+  },
+];
+
+export const coreCourses = [
+  {
+    title: "Drawing",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Principles and Techniques of Graphics",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Drawing",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Principles and Techniques of Graphics",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Drawing",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Principles and Techniques of Graphics",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Drawing",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Principles and Techniques of Graphics",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Drawing",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+  {
+    title: "Principles and Techniques of Graphics",
+    image: drawing,
+    content:
+      "Students are being introduced to technical and manipulative skill development in drawing. Learning the various drawing skills which emphasis on accurate observation, structure, volume, spatial projection, and visual relationship are developed",
+  },
+];
+
+export const graphics = [
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+    creator: "Matric No: IDD/17/3801",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+    creator: "Matric No: IDD/17/3801",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+    creator: "Matric No: IDD/17/3801",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+    creator: "Matric No: IDD/17/3801",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
+  },
+  {
+    image: graphicsGallery2,
+    title: "Logo design",
+    course: "GRAPHICS",
+    matricNumber: "By: Omoolorun Goodness",
+    creator: "Matric No: IDD/18/7451",
+  },
+  {
+    image: graphicsGallery1,
+    title: "Pencil drawing of a family portrait",
+    course: "GRAPHICS",
+    matricNumber: "By: Adebayo Oluwatobi",
   },
 ];
