@@ -26,7 +26,6 @@ import {
   television,
   advertising,
   designStudio,
-  illustration,
   photography,
   animation,
   printMaking,
@@ -189,7 +188,7 @@ export const coreCourses = [
   },
   {
     title: "Illustration and Editorial Design",
-    image: illustration,
+    image: drawing,
     content:
       "This course introduces students to the principles and practice of illustration. Functions of illustrations, illustration problems in relations to various reproduction techniques in books, periodicals, industrial/technical publications, cartooning  and animation. La",
   },

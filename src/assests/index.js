@@ -30,7 +30,6 @@ import printMaking from "./printMaking.jpeg";
 import Principles from "./Principles.jpeg";
 import photography from "./photography.jpeg";
 import television from "./television.jpeg";
-import illustration from "./illustration.jpeg";
 import specialProjects from "./specialProjects.jpeg";
 import designStudio from "./designStudio.jpeg";
 import backgroundAbt from "./backgroundAbt.jpeg";
@@ -141,7 +140,6 @@ export {
   graphicsGallery16,
   printMaking,
   Principles,
-  illustration,
   specialProjects,
   television,
   photography,
