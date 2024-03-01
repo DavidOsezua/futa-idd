@@ -145,5 +145,5 @@ export {
   specialProjects,
   television,
   photography,
-  mrDare
+  mrDare,
 };
