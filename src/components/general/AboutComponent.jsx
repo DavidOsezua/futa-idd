@@ -25,7 +25,7 @@ const AboutComponent = ({ Image, title, content, invert, switched }) => {
         <h2
           className={`${!invert ? "" : styles.desktopTitle2} ${
             styles.desktopTitle
-          }`}
+          } `}
         >
           {title}
         </h2>

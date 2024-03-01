@@ -6,6 +6,12 @@ import {
   leftArk,
   graphicsAbt,
   DrIbiwoye,
+  ProfKayode,
+  ProfOladumiye,
+  DrEtsename,
+  DrOdeyemi,
+  MrUthman,
+  mrDare,
 } from "../assests";
 import { coreCourses, graphics } from "../data";
 import CoreCoursesCard from "../components/general/CoreCoursesCard";
@@ -81,7 +87,7 @@ const Graphics = () => {
             <div className={`${styles.imageWrapper}`}>
               <img src={DrIbiwoye} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
+                <h2 className={`${styles.rankTitle}`}>Dr T.I Ibiwoye</h2>
                 <p>Senior ceramics lecturer</p>
               </div>
             </div>
@@ -92,7 +98,7 @@ const Graphics = () => {
           </h2>
           <div className={`${styles.imageContainer}`}>
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={ProfKayode} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
                 <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
                 <p>Senior ceramics lecturer</p>
@@ -100,18 +106,18 @@ const Graphics = () => {
             </div>
 
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={ProfOladumiye} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
+                <h2 className={`${styles.rankTitle}`}>Prof. E.B Oladumiye</h2>
                 <p>Senior ceramics lecturer</p>
               </div>
             </div>
 
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={DrEtsename} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
+                <h2 className={`${styles.rankTitle}`}>Dr. E.L Etsename</h2>
+                <p>Graphics lecturer</p>
               </div>
             </div>
           </div>
@@ -121,26 +127,26 @@ const Graphics = () => {
           </h2>
           <div className={`${styles.imageContainer}`}>
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={DrOdeyemi} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
+                <h2 className={`${styles.rankTitle}`}>Dr. Odeyemi</h2>
+                <p>Chief Technologist</p>
               </div>
             </div>
 
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={MrUthman} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
+                <h2 className={`${styles.rankTitle}`}>Mr. Uthman</h2>
+                <p>Graphics Technologist</p>
               </div>
             </div>
 
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={mrDare} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
+                <h2 className={`${styles.rankTitle}`}>Mr.Dare</h2>
+                <p>Graphics Technologist</p>
               </div>
             </div>
           </div>

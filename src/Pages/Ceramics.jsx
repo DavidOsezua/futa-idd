@@ -7,6 +7,14 @@ import {
   graphicsAbt,
   DrIbiwoye,
   backgroundCeramics,
+  ceramicsAbt,
+  DrFadairo,
+  ProfKashim,
+  DrErhuanga,
+  DrAdelabu,
+  DrOlogunwa,
+  DrAjala,
+  MrOke,
 } from "../assests";
 import { coreCourses, graphics } from "../data";
 import CoreCoursesCard from "../components/general/CoreCoursesCard";
@@ -37,7 +45,7 @@ const Ceramics = () => {
             Ceramics <span className="text-[#754FE2]">Design</span>{" "}
           </h2>
           <div className={`${styles.wrapper}`}>
-            <img src={graphicsAbt} className={`${styles.Abtimage}`} />
+            <img src={ceramicsAbt} className={`${styles.Abtimage}`} />
             <div className={`${styles.contentWrapper}`}>
               <h2 className={`${styles.contentTitle} ${styles.desktopTitle}`}>
                 Ceramics <span className="text-[#754FE2]">Design</span>{" "}
@@ -76,68 +84,68 @@ const Ceramics = () => {
 
           <div className={`${styles.imageContainer}`}>
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={DrFadairo} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
+                <h2 className={`${styles.rankTitle}`}>Dr O.O Fadairo</h2>
                 <p>Senior ceramics lecturer</p>
               </div>
             </div>
           </div>
 
           <h2 className={`${styles.rankTitle} ${styles.center}`}>
-            Our Lecturer
+            Our Lecturers
           </h2>
           <div className={`${styles.imageContainer}`}>
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={ProfKashim} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
+                <h2 className={`${styles.rankTitle}`}>Prof. I.B Kashim</h2>
                 <p>Senior ceramics lecturer</p>
               </div>
             </div>
 
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={DrErhuanga} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
+                <h2 className={`${styles.rankTitle}`}>Dr E.A Erhuanga</h2>
                 <p>Senior ceramics lecturer</p>
               </div>
             </div>
 
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={DrAdelabu} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
+                <h2 className={`${styles.rankTitle}`}>Dr. O.S Adelabu</h2>
+                <p>Senior ceramics lecturer</p>
+              </div>
+            </div>
+
+            <div className={`${styles.imageWrapper}`}>
+              <img src={DrOlogunwa} className={`${styles.image}`} />
+              <div className={`${styles.rank}`}>
+                <h2 className={`${styles.rankTitle}`}>Dr. Ologunwa</h2>
+                <p>Senior ceramics lecturer</p>
+              </div>
+            </div>
+
+            <div className={`${styles.imageWrapper}`}>
+              <img src={DrAjala} className={`${styles.image}`} />
+              <div className={`${styles.rank}`}>
+                <h2 className={`${styles.rankTitle}`}>Dr.Ajala</h2>
                 <p>Senior ceramics lecturer</p>
               </div>
             </div>
           </div>
 
           <h2 className={`${styles.rankTitle} ${styles.center}`}>
-            Technologist
+            Non-Teaching Staff
           </h2>
           <div className={`${styles.imageContainer}`}>
             <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
+              <img src={MrOke} className={`${styles.image}`} />
               <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
-              </div>
-            </div>
-
-            <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
-              <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
-              </div>
-            </div>
-
-            <div className={`${styles.imageWrapper}`}>
-              <img src={DrIbiwoye} className={`${styles.image}`} />
-              <div className={`${styles.rank}`}>
-                <h2 className={`${styles.rankTitle}`}>Prof. O.F Kayode</h2>
-                <p>Senior ceramics lecturer</p>
+                <h2 className={`${styles.rankTitle}`}>Mr.Oke</h2>
+                <p>Non-teaching staff</p>
               </div>
             </div>
           </div>
